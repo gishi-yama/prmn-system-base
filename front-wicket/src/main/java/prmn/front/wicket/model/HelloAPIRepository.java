@@ -1,5 +1,6 @@
 package prmn.front.wicket.model;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.LinkedMultiValueMap;
@@ -13,7 +14,7 @@ public class HelloAPIRepository implements IHelloAPIRepository {
 
   public HelloAPIRepository(RestClient.Builder builder) {
     this.restClient = builder
-      .baseUrl("http://localhost:8081")
+      .baseUrl("http://localhost:8082")
       .build();
   }
 
