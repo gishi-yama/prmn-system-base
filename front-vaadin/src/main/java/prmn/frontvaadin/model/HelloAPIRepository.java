@@ -19,7 +19,7 @@ public class HelloAPIRepository {
 
   public Greeting greet() {
     MultiValueMap<String, String> body = new LinkedMultiValueMap<>();
-    body.add("mailaddress", "yamakawa@photon.chitose.ac.jp");
+    body.add("mailaddress", "prmn@example.com");
 
     return restClient.post()
       .uri("/greet")
