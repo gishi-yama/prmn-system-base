@@ -4,10 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.time.LocalDateTime;
 import org.junit.jupiter.api.Test;
+import prmn.backendsb.domain.specification.時間帯の判定ルール;
 
 class あいさつをするTest {
 
-  private final あいさつをする ドメインサービス = new あいさつをする();
+  private final あいさつをする ドメインサービス = new あいさつをする(new 時間帯の判定ルール());
 
   @Test
   void 朝は朝のメッセージを返す() {

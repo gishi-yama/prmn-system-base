@@ -1,22 +1,26 @@
 package prmn.backendsb.service;
 
+import java.time.LocalDateTime;
 import org.springframework.stereotype.Service;
 import prmn.backendsb.domain.あいさつをする;
 import prmn.backendsb.domain.あいさつ内容;
-import prmn.backendsb.infrastructure.AccountRepository;
 
 @Service
 public class あいさつUseCase {
 
-  private AccountRepository accountRepository;
+  private final アカウント情報源 アカウント情報源;
+  private final あいさつをする あいさつをする;
 
-  public あいさつUseCase(AccountRepository accountRepository) {
-    this.accountRepository = accountRepository;
+  public あいさつUseCase(アカウント情報源 アカウント情報源, あいさつをする あいさつをする) {
+    this.アカウント情報源 = アカウント情報源;
+    this.あいさつをする = あいさつをする;
   }
 
+  // メールアドレスからユーザー名を特定し、指定時刻のあいさつ文を組み立てる
   public あいさつ内容 実行する(String メールアドレス) {
-    String ユーザー名 = accountRepository.ユーザー名検索(メールアドレス);
-    return new あいさつをする().時間帯にあわせてあいさつの内容を作る(ユーザー名);
+    String ユーザー名 = アカウント情報源.ユーザー名検索(メールアドレス);
+    LocalDateTime 参照時刻 = LocalDateTime.now();
+    return あいさつをする.時間帯にあわせてあいさつの内容を作る(ユーザー名, 参照時刻);
 
   }
 
