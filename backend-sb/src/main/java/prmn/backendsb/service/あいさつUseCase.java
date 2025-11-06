@@ -19,8 +19,8 @@ public class あいさつUseCase {
   // メールアドレスからユーザー名を特定し、指定時刻のあいさつ文を組み立てる
   public あいさつ内容 実行する(String メールアドレス) {
     String ユーザー名 = アカウント情報源.ユーザー名検索(メールアドレス);
-    LocalDateTime 参照時刻 = LocalDateTime.now();
-    return あいさつをする.時間帯にあわせてあいさつの内容を作る(ユーザー名, 参照時刻);
+    LocalDateTime 現在日時 = LocalDateTime.now();
+    return あいさつをする.時間帯にあわせてあいさつの内容を作る(ユーザー名, 現在日時);
 
   }
 
