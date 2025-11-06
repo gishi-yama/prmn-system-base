@@ -1,9 +1,9 @@
-package prmn.backendsb.service;
+package prmn.backend.service;
 
 import java.time.LocalDateTime;
 import org.springframework.stereotype.Service;
-import prmn.backendsb.domain.あいさつ;
-import prmn.backendsb.domain.あいさつ内容;
+import prmn.backend.domain.あいさつ;
+import prmn.backend.domain.あいさつ内容;
 
 @Service
 public class あいさつUseCase {

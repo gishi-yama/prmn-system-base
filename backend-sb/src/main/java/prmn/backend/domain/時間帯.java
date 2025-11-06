@@ -1,4 +1,4 @@
-package prmn.backendsb.domain;
+package prmn.backend.domain;
 
 public enum 時間帯 {
   朝,

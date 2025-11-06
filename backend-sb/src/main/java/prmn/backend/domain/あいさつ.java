@@ -1,7 +1,7 @@
-package prmn.backendsb.domain;
+package prmn.backend.domain;
 
 import java.time.LocalDateTime;
-import prmn.backendsb.domain.specification.時間帯の判定ルール;
+import prmn.backend.domain.specification.時間帯の判定ルール;
 
 public class あいさつ {
 

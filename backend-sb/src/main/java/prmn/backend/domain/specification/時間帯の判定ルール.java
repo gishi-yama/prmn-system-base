@@ -1,11 +1,11 @@
-package prmn.backendsb.domain.specification;
+package prmn.backend.domain.specification;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.EnumMap;
 import java.util.Map;
 import java.util.function.Predicate;
-import prmn.backendsb.domain.時間帯;
+import prmn.backend.domain.時間帯;
 
 public record 時間帯の判定ルール() {
 

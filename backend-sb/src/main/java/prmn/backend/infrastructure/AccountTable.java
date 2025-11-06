@@ -1,7 +1,7 @@
-package prmn.backendsb.infrastructure;
+package prmn.backend.infrastructure;
 
 import org.springframework.stereotype.Repository;
-import prmn.backendsb.service.アカウント情報源;
+import prmn.backend.service.アカウント情報源;
 
 @Repository
 public class AccountTable implements アカウント情報源 {

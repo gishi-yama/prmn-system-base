@@ -1,10 +1,10 @@
-package prmn.backendsb.domain;
+package prmn.backend.domain;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.time.LocalDateTime;
 import org.junit.jupiter.api.Test;
-import prmn.backendsb.domain.specification.時間帯の判定ルール;
+import prmn.backend.domain.specification.時間帯の判定ルール;
 
 class 時間帯の判定ルールTest {
 

@@ -1,4 +1,4 @@
-package prmn.backendsb.service;
+package prmn.backend.service;
 
 public interface アカウント情報源 {
 

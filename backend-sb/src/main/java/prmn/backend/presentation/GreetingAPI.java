@@ -1,9 +1,9 @@
-package prmn.backendsb.presentation;
+package prmn.backend.presentation;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-import prmn.backendsb.domain.あいさつ内容;
-import prmn.backendsb.service.あいさつUseCase;
+import prmn.backend.domain.あいさつ内容;
+import prmn.backend.service.あいさつUseCase;
 
 @RestController
 public class GreetingAPI {

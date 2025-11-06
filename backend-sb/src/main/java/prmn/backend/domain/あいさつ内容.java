@@ -1,4 +1,4 @@
-package prmn.backendsb.domain;
+package prmn.backend.domain;
 
 import java.time.LocalDateTime;
 
