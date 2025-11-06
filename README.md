@@ -11,6 +11,6 @@
 
 ## How to run
 
-1. front-vaadin, backend-sb の両方をIntelliJ IDEAなどで開き、起動してください。
-2. http://localhost:8080 にアクセスしてください。
-3. ボタンを押すと、メッセージが表示されます。時間帯によって変わります。
+1. backend-sb, front-vaadin, front-wicket をIntelliJ IDEAで開き、起動してください。
+2. Vaadinの場合は http://localhost:8080 に、Wicketの場合は http://localhost:8081 にアクセスしてください。
+3. ボタンを押すと、backend-sb から取得したあいさつメッセージが表示されます。時間帯によって変わります。
