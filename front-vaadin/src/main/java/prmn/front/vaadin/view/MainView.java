@@ -1,10 +1,10 @@
-package prmn.frontvaadin.view;
+package prmn.front.vaadin.view;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.NativeLabel;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
-import prmn.frontvaadin.model.HelloAPIRepository;
+import prmn.front.vaadin.model.HelloAPIRepository;
 import prmn.frontvaadin.model.Greeting;
 
 @Route

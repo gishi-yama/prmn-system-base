@@ -1,4 +1,4 @@
-package prmn.frontvaadin.model;
+package prmn.front.vaadin.model;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Repository;
