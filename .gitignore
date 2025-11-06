@@ -287,3 +287,10 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+#Vaadin
+src/main/frontend/generated/
+pnpmfile.js
+.npmrc
+webpack.generated.js
+vite.generated.ts
