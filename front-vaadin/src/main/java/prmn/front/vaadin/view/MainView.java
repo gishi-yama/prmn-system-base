@@ -5,7 +5,7 @@ import com.vaadin.flow.component.html.NativeLabel;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 import prmn.front.vaadin.model.HelloAPIRepository;
-import prmn.frontvaadin.model.Greeting;
+import prmn.front.vaadin.model.Greeting;
 
 @Route
 public class MainView extends VerticalLayout {
