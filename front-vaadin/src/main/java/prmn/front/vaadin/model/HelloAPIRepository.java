@@ -13,7 +13,7 @@ public class HelloAPIRepository {
 
   public HelloAPIRepository(RestClient.Builder builder) {
     this.restClient = builder
-      .baseUrl("http://localhost:8081")
+      .baseUrl("http://localhost:8082")
       .build();
   }
 
