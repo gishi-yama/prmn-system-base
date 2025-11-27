@@ -30,4 +30,16 @@ public class HelloAPIRepository {
       .body(Greeting.class);
   }
 
+  public Greeting greet(String mailaddress) {
+    MultiValueMap<String, String> body = new LinkedMultiValueMap<>();
+    body.add("mailaddress", mailaddress);
+
+    return restClient.post()
+      .uri("/greet")
+      .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+      .body(body)
+      .retrieve()
+      .body(Greeting.class);
+  }
+
 }
