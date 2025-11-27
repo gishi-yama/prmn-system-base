@@ -1,12 +1,13 @@
-package prmn.front.vaadin.view;
+package prmn.front.vaadin.signedarea.greeting.presentation;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.NativeLabel;
 import com.vaadin.flow.router.Route;
 import jakarta.annotation.security.PermitAll;
-import prmn.front.vaadin.model.Greeting;
-import prmn.front.vaadin.model.HelloAPIRepository;
-import prmn.front.vaadin.security.AuthenticatedUserService;
+import prmn.front.vaadin.shared.security.AuthenticatedUserService;
+import prmn.front.vaadin.shared.presentation.AbstractAuthenticatedView;
+import prmn.front.vaadin.signedarea.greeting.domain.Greeting;
+import prmn.front.vaadin.signedarea.greeting.infrastructure.HelloAPIRepository;
 
 @Route("signed")
 @PermitAll

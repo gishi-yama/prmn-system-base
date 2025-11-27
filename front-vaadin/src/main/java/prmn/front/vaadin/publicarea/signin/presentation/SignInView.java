@@ -1,4 +1,4 @@
-package prmn.front.vaadin.view;
+package prmn.front.vaadin.publicarea.signin.presentation;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Paragraph;
@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import prmn.front.vaadin.signedarea.greeting.presentation.SignedMainView;
 
 @Route(SignInView.ROUTE_PATH)
 @AnonymousAllowed
