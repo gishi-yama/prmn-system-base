@@ -35,12 +35,12 @@ public class SignInView extends VerticalLayout implements BeforeEnterObserver {
 
   @Override
   public void beforeEnter(BeforeEnterEvent event) {
-    // 既にサインイン済みであればSignedMainViewへ遷移し、未認証ならAzure ADへ誘導する
+    // 既にサインイン済みであればSignedMainViewへ遷移する
     if (isAuthenticated()) {
       event.forwardTo(SignedMainView.class);
       return;
     }
-    redirectToProvider();
+    // 未認証の場合は何もしない（手動サインインボタンを表示）
   }
 
   private boolean isAuthenticated() {
