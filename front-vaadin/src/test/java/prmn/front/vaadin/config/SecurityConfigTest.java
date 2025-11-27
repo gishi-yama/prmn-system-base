@@ -1,4 +1,4 @@
-package prmn.front.vaadin.config;
+package prmn.front.vaadin.shared.security;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.redirectedUrlPattern;
