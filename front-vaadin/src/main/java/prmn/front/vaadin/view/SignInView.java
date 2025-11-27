@@ -26,7 +26,7 @@ public class SignInView extends VerticalLayout implements BeforeEnterObserver {
     // コンストラクタではAzure ADの認可エンドポイントへの導線と画面表示を初期化する
     this.authorizationPath = "/oauth2/authorization/" + registrationId;
 
-    add(new Span("研究室アカウントでサインインしてください。"));
+    add(new Span("大学アカウントでサインインしてください。"));
     add(new Paragraph("自動的にAzure ADへ遷移しない場合は下のボタンを押してください。"));
     Button startButton = new Button("Azure ADでサインイン", event -> redirectToProvider());
     add(startButton);
