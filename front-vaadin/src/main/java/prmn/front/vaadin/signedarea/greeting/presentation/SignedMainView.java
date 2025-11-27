@@ -26,12 +26,10 @@ public class SignedMainView extends AbstractAuthenticatedView {
     add(new NativeLabel("Signed in as: " + email));
 
     NativeLabel nativeLabel = new NativeLabel();
-    Button clickMe = new Button("Click me", e
-      -> {
+    Button clickMe = new Button("Click me", event -> {
       Greeting greeting = backend.greet();
       nativeLabel.setText(greeting.getGreetingMessage());
     });
-
     add(nativeLabel);
     add(clickMe);
   }
