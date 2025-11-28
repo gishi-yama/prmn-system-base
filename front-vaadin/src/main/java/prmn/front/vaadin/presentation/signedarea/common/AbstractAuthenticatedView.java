@@ -1,12 +1,12 @@
-package prmn.front.vaadin.shared.presentation;
+package prmn.front.vaadin.presentation.signedarea.common;
 
 import com.vaadin.flow.component.AttachEvent;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import java.util.Optional;
-import prmn.front.vaadin.publicarea.signin.presentation.SignInView;
-import prmn.front.vaadin.shared.security.AuthenticatedUserService;
+import prmn.front.vaadin.presentation.publicarea.SignInView;
+import prmn.front.vaadin.application.common.AuthenticatedUserService;
 
 public abstract class AbstractAuthenticatedView extends VerticalLayout {
 

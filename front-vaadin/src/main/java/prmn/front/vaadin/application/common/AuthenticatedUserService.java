@@ -1,4 +1,4 @@
-package prmn.front.vaadin.shared.security;
+package prmn.front.vaadin.application.common;
 
 import com.vaadin.flow.spring.annotation.UIScope;
 import java.util.Optional;

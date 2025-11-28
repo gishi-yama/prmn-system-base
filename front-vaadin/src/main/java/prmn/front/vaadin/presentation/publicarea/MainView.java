@@ -1,12 +1,12 @@
-package prmn.front.vaadin.publicarea.main.presentation;
+package prmn.front.vaadin.presentation.publicarea;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.NativeLabel;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
-import prmn.front.vaadin.signedarea.greeting.infrastructure.HelloAPIRepository;
-import prmn.front.vaadin.signedarea.greeting.domain.Greeting;
+import prmn.front.vaadin.infrastructure.HelloAPIRepository;
+import prmn.front.vaadin.application.domain.Greeting;
 
 @Route("")
 @AnonymousAllowed

@@ -1,11 +1,11 @@
-package prmn.front.vaadin.signedarea.greeting.infrastructure;
+package prmn.front.vaadin.infrastructure;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestClient;
-import prmn.front.vaadin.signedarea.greeting.domain.Greeting;
+import prmn.front.vaadin.application.domain.Greeting;
 
 @Repository
 public class HelloAPIRepository {

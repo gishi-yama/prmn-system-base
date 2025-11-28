@@ -1,4 +1,4 @@
-package prmn.front.vaadin.shared.security;
+package prmn.front.vaadin.config;
 
 import com.vaadin.flow.spring.security.VaadinAwareSecurityContextHolderStrategyConfiguration;
 import com.vaadin.flow.spring.security.VaadinSecurityConfigurer;
@@ -11,7 +11,7 @@ import org.springframework.security.oauth2.client.registration.ClientRegistratio
 import org.springframework.security.oauth2.client.web.DefaultOAuth2AuthorizationRequestResolver;
 import org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestResolver;
 import org.springframework.security.web.SecurityFilterChain;
-import prmn.front.vaadin.publicarea.signin.presentation.SignInView;
+import prmn.front.vaadin.presentation.publicarea.SignInView;
 
 @EnableWebSecurity
 @Configuration
