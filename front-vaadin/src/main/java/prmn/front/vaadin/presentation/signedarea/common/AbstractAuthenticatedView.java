@@ -6,7 +6,7 @@ import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import java.util.Optional;
 import prmn.front.vaadin.presentation.publicarea.SignInView;
-import prmn.front.vaadin.application.common.AuthenticatedUserService;
+import prmn.front.vaadin.service.common.AuthenticatedUserService;
 
 public abstract class AbstractAuthenticatedView extends VerticalLayout {
 

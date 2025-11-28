@@ -1,4 +1,4 @@
-package prmn.front.vaadin.application.common;
+package prmn.front.vaadin.service.common;
 
 import com.vaadin.flow.spring.annotation.UIScope;
 import java.util.Optional;

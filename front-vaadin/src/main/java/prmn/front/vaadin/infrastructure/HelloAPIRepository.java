@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestClient;
-import prmn.front.vaadin.application.domain.Greeting;
+import prmn.front.vaadin.service.domain.greeting.Greeting;
 
 @Repository
 public class HelloAPIRepository {

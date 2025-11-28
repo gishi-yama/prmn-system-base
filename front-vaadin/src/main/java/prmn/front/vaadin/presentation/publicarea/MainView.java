@@ -6,7 +6,7 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import prmn.front.vaadin.infrastructure.HelloAPIRepository;
-import prmn.front.vaadin.application.domain.Greeting;
+import prmn.front.vaadin.service.domain.greeting.Greeting;
 
 @Route("")
 @AnonymousAllowed

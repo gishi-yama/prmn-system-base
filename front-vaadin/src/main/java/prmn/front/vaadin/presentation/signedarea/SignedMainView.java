@@ -4,9 +4,9 @@ import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.NativeLabel;
 import com.vaadin.flow.router.Route;
 import jakarta.annotation.security.PermitAll;
-import prmn.front.vaadin.application.common.AuthenticatedUserService;
+import prmn.front.vaadin.service.common.AuthenticatedUserService;
 import prmn.front.vaadin.presentation.signedarea.common.AbstractAuthenticatedView;
-import prmn.front.vaadin.application.domain.Greeting;
+import prmn.front.vaadin.service.domain.greeting.Greeting;
 import prmn.front.vaadin.infrastructure.HelloAPIRepository;
 
 @Route("signed")
