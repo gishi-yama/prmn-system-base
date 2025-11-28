@@ -1,7 +1,7 @@
-package prmn.backend.domain;
+package prmn.backend.domain.greeting;
 
 import java.time.LocalDateTime;
-import prmn.backend.domain.specification.時間帯の判定ルール;
+import prmn.backend.domain.greeting.specification.時間帯の判定ルール;
 
 public class あいさつ {
 

@@ -2,7 +2,7 @@ package prmn.backend.presentation;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-import prmn.backend.domain.あいさつ内容;
+import prmn.backend.domain.greeting.あいさつ内容;
 import prmn.backend.service.あいさつUseCase;
 
 @RestController

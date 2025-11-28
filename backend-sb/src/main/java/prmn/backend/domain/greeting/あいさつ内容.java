@@ -1,4 +1,4 @@
-package prmn.backend.domain;
+package prmn.backend.domain.greeting;
 
 import java.time.LocalDateTime;
 
