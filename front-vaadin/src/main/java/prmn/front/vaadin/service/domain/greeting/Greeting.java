@@ -1,4 +1,4 @@
-package prmn.front.vaadin.model;
+package prmn.front.vaadin.service.domain.greeting;
 
 import java.time.LocalDateTime;
 

@@ -1,10 +1,11 @@
-package prmn.front.vaadin.model;
+package prmn.front.vaadin.infrastructure;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Repository;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestClient;
+import prmn.front.vaadin.service.domain.greeting.Greeting;
 
 @Repository
 public class HelloAPIRepository {
@@ -20,6 +21,18 @@ public class HelloAPIRepository {
   public Greeting greet() {
     MultiValueMap<String, String> body = new LinkedMultiValueMap<>();
     body.add("mailaddress", "prmn@example.com");
+
+    return restClient.post()
+      .uri("/greet")
+      .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+      .body(body)
+      .retrieve()
+      .body(Greeting.class);
+  }
+
+  public Greeting greet(String mailaddress) {
+    MultiValueMap<String, String> body = new LinkedMultiValueMap<>();
+    body.add("mailaddress", mailaddress);
 
     return restClient.post()
       .uri("/greet")

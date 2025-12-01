@@ -2,8 +2,8 @@ package prmn.backend.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import prmn.backend.domain.あいさつ;
-import prmn.backend.domain.specification.時間帯の判定ルール;
+import prmn.backend.domain.greeting.あいさつ;
+import prmn.backend.domain.greeting.specification.時間帯の判定ルール;
 
 @Configuration
 public class DomainConfig {
